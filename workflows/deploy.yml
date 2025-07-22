@@ -3,7 +3,7 @@ name: Deploy static content to Pages
 on:
   push:
     branches: ["main"]
-
+  # This key enables the "Run workflow" button
   workflow_dispatch:
 
 permissions:
